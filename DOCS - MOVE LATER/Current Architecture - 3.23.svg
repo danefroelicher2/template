@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GymTracker Pro: Current Architecture</text>
+  <text x="400" y="60" font-family="Arial" font-size="16" text-anchor="middle">Week of 3/23 - 3/30</text>
+  
+  <!-- App Container -->
+  <rect x="50" y="100" width="700" height="450" fill="#f5f5f5" stroke="#333" stroke-width="2" rx="10"/>
+  
+  <!-- UI Layer -->
+  <rect x="80" y="130" width="640" height="120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="400" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#1976d2" font-weight="bold">UI Layer</text>
+  
+  <!-- UI Components -->
+  <rect x="100" y="170" width="100" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="5"/>
+  <text x="150" y="205" font-family="Arial" font-size="14" text-anchor="middle">Home Page</text>
+  
+  <rect x="220" y="170" width="100" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="5"/>
+  <text x="270" y="205" font-family="Arial" font-size="14" text-anchor="middle">Workout Page</text>
+  
+  <rect x="340" y="170" width="100" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="5"/>
+  <text x="390" y="205" font-family="Arial" font-size="14" text-anchor="middle">Library Page</text>
+  
+  <rect x="460" y="170" width="100" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="5"/>
+  <text x="510" y="205" font-family="Arial" font-size="14" text-anchor="middle">History Page</text>
+  
+  <rect x="580" y="170" width="100" height="60" fill="#bbdefb" stroke="#1976d2" stroke-width="1" rx="5"/>
+  <text x="630" y="205" font-family="Arial" font-size="14" text-anchor="middle">Settings Page</text>
+  
+  <!-- Services Layer -->
+  <rect x="80" y="270" width="640" height="100" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="400" y="290" font-family="Arial" font-size="18" text-anchor="middle" fill="#388e3c" font-weight="bold">Services Layer</text>
+  
+  <!-- Service Components -->
+  <rect x="150" y="310" width="130" height="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" rx="5"/>
+  <text x="215" y="335" font-family="Arial" font-size="14" text-anchor="middle">Subscription Service</text>
+  
+  <rect x="520" y="310" width="130" height="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" rx="5"/>
+  <text x="585" y="335" font-family="Arial" font-size="14" text-anchor="middle">Analytics Service</text>
+  
+  <!-- Data Layer -->
+  <rect x="80" y="390" width="640" height="140" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="400" y="410" font-family="Arial" font-size="18" text-anchor="middle" fill="#f57c00" font-weight="bold">Data Layer</text>
+  
+  <!-- Database -->
+  <rect x="140" y="440" width="520" height="60" fill="#ffe0b2" stroke="#f57c00" stroke-width="1" rx="5"/>
+  <text x="400" y="470" font-family="Arial" font-size="14" text-anchor="middle">SQLite (Mobile) / In-Memory (Web)</text>
+  <text x="400" y="490" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Device-local data storage only</text>
+  
+  <!-- Models -->
+  <rect x="140" y="430" width="80" height="30" fill="#ffcc80" stroke="#f57c00" stroke-width="1" rx="3"/>
+  <text x="180" y="450" font-family="Arial" font-size="12" text-anchor="middle">Workout</text>
+  
+  <rect x="240" y="430" width="80" height="30" fill="#ffcc80" stroke="#f57c00" stroke-width="1" rx="3"/>
+  <text x="280" y="450" font-family="Arial" font-size="12" text-anchor="middle">Exercise</text>
+  
+  <!-- Limitations -->
+  <rect x="120" y="520" width="560" height="30" fill="#ffebee" stroke="#c62828" stroke-width="1" rx="5"/>
+  <text x="400" y="540" font-family="Arial" font-size="14" text-anchor="middle" fill="#c62828">Limitations: No cross-device sync, No user accounts, Local subscription only</text>
+
+  <!-- Authentication Status -->
+  <rect x="680" y="100" width="20" height="20" fill="#ffccbc" stroke="#e64a19" stroke-width="1"/>
+  <text x="710" y="114" font-family="Arial" font-size="14" text-anchor="start" fill="#e64a19">No Auth</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GymTracker Pro: Future Roadmap</text>
+  <text x="400" y="60" font-family="Arial" font-size="16" text-anchor="middle">Week of 3/23 - 3/30</text>
+  
+  <!-- Timeline Background -->
+  <rect x="50" y="100" width="700" height="450" fill="#f5f5f5" stroke="#333" stroke-width="2" rx="10"/>
+  
+  <!-- Timeline Bar -->
+  <line x1="400" y1="120" x2="400" y2="520" stroke="#9e9e9e" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Current Phase (Firebase Auth) -->
+  <circle cx="400" cy="160" r="15" fill="#1976d2" stroke="#0d47a1" stroke-width="2"/>
+  <rect x="420" y="140" width="250" height="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="545" y="160" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1976d2">Firebase Authentication</text>
+  <text x="545" y="180" font-family="Arial" font-size="12" text-anchor="middle">User accounts, Auth flows, Cloud sync</text>
+  
+  <rect x="130" y="140" width="250" height="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="255" y="160" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1976d2">Current Phase</text>
+  <text x="255" y="180" font-family="Arial" font-size="12" text-anchor="middle">March-April 2025</text>
+  
+  <!-- Phase 2 (Enhanced Analytics) -->
+  <circle cx="400" cy="240" r="15" fill="#9c27b0" stroke="#6a1b9a" stroke-width="2"/>
+  <rect x="420" y="220" width="250" height="50" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="5"/>
+  <text x="545" y="240" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#9c27b0">Enhanced Analytics</text>
+  <text x="545" y="260" font-family="Arial" font-size="12" text-anchor="middle">Progress tracking, Charts, Insights</text>
+  
+  <rect x="130" y="220" width="250" height="50" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="5"/>
+  <text x="255" y="240" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#9c27b0">Phase 2</text>
+  <text x="255" y="260" font-family="Arial" font-size="12" text-anchor="middle">May-June 2025</text>
+  
+  <!-- Phase 3 (Social Features) -->
+  <circle cx="400" cy="320" r="15" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+  <rect x="420" y="300" width="250" height="50" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <text x="545" y="320" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#4caf50">Social Features</text>
+  <text x="545" y="340" font-family="Arial" font-size="12" text-anchor="middle">Workout sharing, Challenges, Leaderboards</text>
+  
+  <rect x="130" y="300" width="250" height="50" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <text x="255" y="320" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#4caf50">Phase 3</text>
+  <text x="255" y="340" font-family="Arial" font-size="12" text-anchor="middle">July-August 2025</text>
+  
+  <!-- Phase 4 (Integration & Expansion) -->
+  <circle cx="400" cy="400" r="15" fill="#ff9800" stroke="#ef6c00" stroke-width="2"/>
+  <rect x="420" y="380" width="250" height="50" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="545" y="400" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#ff9800">Integration & Expansion</text>
+  <text x="545" y="420" font-family="Arial" font-size="12" text-anchor="middle">Wearables, API integrations, Coaching</text>
+  
+  <rect x="130" y="380" width="250" height="50" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="255" y="400" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#ff9800">Phase 4</text>
+  <text x="255" y="420" font-family="Arial" font-size="12" text-anchor="middle">September-November 2025</text>
+  
+  <!-- Phase 5 (AI & Personalization) -->
+  <circle cx="400" cy="480" r="15" fill="#e91e63" stroke="#c2185b" stroke-width="2"/>
+  <rect x="420" y="460" width="250" height="50" fill="#fce4ec" stroke="#e91e63" stroke-width="2" rx="5"/>
+  <text x="545" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#e91e63">AI & Personalization</text>
+  <text x="545" y="500" font-family="Arial" font-size="12" text-anchor="middle">Custom plans, Smart recommendations, ML</text>
+  
+  <rect x="130" y="460" width="250" height="50" fill="#fce4ec" stroke="#e91e63" stroke-width="2" rx="5"/>
+  <text x="255" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#e91e63">Phase 5</text>
+  <text x="255" y="500" font-family="Arial" font-size="12" text-anchor="middle">December 2025-February 2026</text>
+  
+  <!-- Dependencies Arrow -->
+  <line x1="350" y1="190" x2="350" y2="460" stroke="#9e9e9e" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="350" y="530" font-family="Arial" font-size="12" text-anchor="middle" fill="#616161" transform="rotate(-90, 350, 530)">Built on Firebase Auth Foundation</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="480" width="120" height="60" fill="#ffffff" stroke="#9e9e9e" stroke-width="1" rx="5"/>
+  <text x="660" y="500" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Current Focus</text>
+  <circle cx="620" cy="500" r="10" fill="#1976d2" stroke="#0d47a1" stroke-width="2"/>
+  <text x="660" y="525" font-family="Arial" font-size="12" text-anchor="middle">Auth & Cloud Sync</text>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034418380087",
+    "project_id": "iron-pillar",
+    "storage_bucket": "iron-pillar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034418380087:android:ba72dd87e9f6b1ae7e8eb2",
+        "android_client_info": {
+          "package_name": "com.example.gym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvzH8zcgJ7M0Qh456h0EtxzgAXMe9byhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

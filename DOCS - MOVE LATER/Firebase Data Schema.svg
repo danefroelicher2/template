@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GymTracker Pro: Firebase Data Schema</text>
+  <text x="400" y="60" font-family="Arial" font-size="16" text-anchor="middle">Week of 3/23 - 3/30</text>
+  
+  <!-- Background -->
+  <rect x="50" y="80" width="700" height="480" fill="#f5f5f5" stroke="#333" stroke-width="2" rx="10"/>
+  
+  <!-- Users Collection -->
+  <rect x="100" y="120" width="250" height="200" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5"/>
+  <text x="225" y="145" font-family="Arial" font-size="18" text-anchor="middle" fill="#1976d2" font-weight="bold">users</text>
+  <line x1="100" y1="155" x2="350" y2="155" stroke="#1976d2" stroke-width="1"/>
+  
+  <!-- Users Fields -->
+  <text x="110" y="175" font-family="Arial" font-size="14" fill="#333">id: string (UID)</text>
+  <text x="110" y="195" font-family="Arial" font-size="14" fill="#333">email: string</text>
+  <text x="110" y="215" font-family="Arial" font-size="14" fill="#333">displayName: string</text>
+  <text x="110" y="235" font-family="Arial" font-size="14" fill="#333">photoURL: string</text>
+  <text x="110" y="255" font-family="Arial" font-size="14" fill="#333">isGuest: boolean</text>
+  <text x="110" y="275" font-family="Arial" font-size="14" fill="#333">isPremium: boolean</text>
+  <text x="110" y="295" font-family="Arial" font-size="14" fill="#333">createdAt: timestamp</text>
+  <text x="110" y="315" font-family="Arial" font-size="14" fill="#333">lastLogin: timestamp</text>
+  
+  <!-- Workouts Collection -->
+  <rect x="450" y="120" width="250" height="200" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5"/>
+  <text x="575" y="145" font-family="Arial" font-size="18" text-anchor="middle" fill="#388e3c" font-weight="bold">workouts</text>
+  <line x1="450" y1="155" x2="700" y2="155" stroke="#388e3c" stroke-width="1"/>
+  
+  <!-- Workouts Fields -->
+  <text x="460" y="175" font-family="Arial" font-size="14" fill="#333">id: string (auto)</text>
+  <text x="460" y="195" font-family="Arial" font-size="14" fill="#333">userId: string (ref)</text>
+  <text x="460" y="215" font-family="Arial" font-size="14" fill="#333">name: string</text>
+  <text x="460" y="235" font-family="Arial" font-size="14" fill="#333">date: timestamp</text>
+  <text x="460" y="255" font-family="Arial" font-size="14" fill="#333">notes: string</text>
+  <text x="460" y="275" font-family="Arial" font-size="14" fill="#333">localId: number</text>
+  <text x="460" y="295" font-family="Arial" font-size="14" fill="#333">exercises: array</text>
+  <text x="460" y="315" font-family="Arial" font-size="14" fill="#333">updatedAt: timestamp</text>
+  
+  <!-- Exercises Subcollection -->
+  <rect x="500" y="340" width="200" height="180" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="600" y="365" font-family="Arial" font-size="16" text-anchor="middle" fill="#f57c00" font-weight="bold">exercises (array)</text>
+  <line x1="500" y1="375" x2="700" y2="375" stroke="#f57c00" stroke-width="1"/>
+  
+  <!-- Exercises Fields -->
+  <text x="510" y="395" font-family="Arial" font-size="14" fill="#333">name: string</text>
+  <text x="510" y="415" font-family="Arial" font-size="14" fill="#333">sets: number</text>
+  <text x="510" y="435" font-family="Arial" font-size="14" fill="#333">reps: number</text>
+  <text x="510" y="455" font-family="Arial" font-size="14" fill="#333">weight: number</text>
+  <text x="510" y="475" font-family="Arial" font-size="14" fill="#333">localId: number</text>
+  <text x="510" y="495" font-family="Arial" font-size="14" fill="#333">notes: string (optional)</text>
+  
+  <!-- User Preferences (Future) -->
+  <rect x="100" y="340" width="250" height="180" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="5" stroke-dasharray="5,5"/>
+  <text x="225" y="365" font-family="Arial" font-size="16" text-anchor="middle" fill="#9c27b0" font-weight="bold">userPreferences (future)</text>
+  <line x1="100" y1="375" x2="350" y2="375" stroke="#9c27b0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Preferences Fields -->
+  <text x="110" y="395" font-family="Arial" font-size="14" fill="#333" opacity="0.7">userId: string (ref)</text>
+  <text x="110" y="415" font-family="Arial" font-size="14" fill="#333" opacity="0.7">theme: string</text>
+  <text x="110" y="435" font-family="Arial" font-size="14" fill="#333" opacity="0.7">units: string</text>
+  <text x="110" y="455" font-family="Arial" font-size="14" fill="#333" opacity="0.7">fitnessGoals: map</text>
+  <text x="110" y="475" font-family="Arial" font-size="14" fill="#333" opacity="0.7">exerciseFavorites: array</text>
+  <text x="110" y="495" font-family="Arial" font-size="14" fill="#333" opacity="0.7">notifications: map</text>
+  
+  <!-- Relationships -->
+  <line x1="350" y1="180" x2="450" y2="195" stroke="#333" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <text x="400" y="175" font-family="Arial" font-size="12" fill="#333">1:N</text>
+  
+  <line x1="575" y1="320" x2="575" y2="340" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <text x="590" y="330" font-family="Arial" font-size="12" fill="#333">Contains</text>
+  
+  <line x1="225" y1="320" x2="225" y2="340" stroke="#333" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <text x="240" y="330" font-family="Arial" font-size="12" fill="#333">Future</text>
+  
+  <!-- Legend -->
+  <rect x="605" y="525" width="140" height="30" fill="#ffffff" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="620" y="545" font-family="Arial" font-size="12" fill="#333">Solid: MVP Schema</text>
+  <text x="700" y="545" font-family="Arial" font-size="12" fill="#333" opacity="0.7">Dashed: Future</text>
+  
+  <!-- Arrow Head Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
